@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TitleEditText">
+        <attr name="icon" format="integer" />
+        <attr name="labelTextTint" format="integer"/>
+        <attr name="editTextTint" format="integer"/>
+        <attr name="labelTextSize" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="typeFace" format="string"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="backgroundTint" format="color" />
+    </declare-styleable>
+
+</resources>
