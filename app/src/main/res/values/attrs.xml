@@ -2,7 +2,7 @@
 <resources>
 
     <declare-styleable name="TitleEditText">
-        <attr name="icon" format="integer" />
+        <attr name="desIcon" format="integer" />
         <attr name="labelTextTint" format="integer"/>
         <attr name="editTextTint" format="integer"/>
         <attr name="labelTextSize" format="dimension"/>

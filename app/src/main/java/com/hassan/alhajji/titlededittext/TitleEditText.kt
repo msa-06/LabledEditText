@@ -23,7 +23,7 @@ class TitleEditText(context: Context, attrs: AttributeSet): View(context,attrs){
             attrs, R.styleable.TitleEditText, 0, 0).apply {
 
             try {
-                mIcon = getInteger(R.styleable.TitleEditText_icon, 0)
+                mIcon = getInteger(R.styleable.TitleEditText_desIcon, 0)
                 mShowIcon = (mIcon > 0)
                 mLabelTextTint = getInteger(R.styleable.TitleEditText_labelTextTint,android.R.color.black)
                 mEditTextTint = getInteger(R.styleable.TitleEditText_editTextTint,android.R.color.black)
